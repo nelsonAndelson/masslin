@@ -1,0 +1,26 @@
+@import "./variables.scss";
+
+@include computer {
+  .v-computer {
+    display: block;
+    div {
+      display: block;
+    }
+  }
+}
+
+@include tablet {
+  .v-computer {
+    div {
+      display: none;
+    }
+  }
+}
+
+@include mobile {
+  .v-computer {
+    div {
+      display: none;
+    }
+  }
+}

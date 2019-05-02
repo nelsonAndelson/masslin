@@ -1,0 +1,29 @@
+//Breakpoints
+$mobile: 575px;
+$tablet: 767px;
+$computer: 991px;
+$xl-screen: 1199px;
+
+@mixin mobile {
+  @media (min-width: $mobile) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: $tablet) {
+    @content;
+  }
+}
+
+@mixin computer {
+  @media (min-width: $computer) {
+    @content;
+  }
+}
+
+@mixin xl-screen {
+  @media (min-width: $xl-screen) {
+    @content;
+  }
+}

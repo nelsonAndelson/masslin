@@ -1,0 +1,23 @@
+@import "./variables.scss";
+
+@include computer {
+  .card {
+    .can-img {
+      img {
+        width: 75% !important;
+        margin: 50px !important;
+      }
+    }
+  }
+}
+
+@include tablet {
+  .card {
+    .can-img {
+      img {
+        width: 75%;
+        margin: 30px;
+      }
+    }
+  }
+}

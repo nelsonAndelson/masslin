@@ -1,0 +1,27 @@
+.main-img {
+  width: 100%;
+  position: relative;
+  box-shadow: 5px -5px 13px 0px #e2e2e2;
+  img {
+    height: 260px;
+  }
+
+  .can-img {
+    width: 57%;
+    height: 40%;
+    padding: 0.5em;
+    position: absolute;
+    background: white;
+    top: 58%;
+    left: 55%;
+    border-left: 10px solid #165794;
+
+    -webkit-clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 5px;
+    }
+  }
+}

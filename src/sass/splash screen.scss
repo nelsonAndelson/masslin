@@ -1,0 +1,30 @@
+@import "./variables.scss";
+
+.slide {
+  position: relative;
+  z-index: +1;
+  background-size: cover !important;
+  p {
+    font-size: 1.5rem;
+  }
+}
+.dimmer {
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.4;
+  z-index: -1;
+  background: black;
+}
+
+@include tablet {
+  .slide {
+    height: 50vh !important;
+  }
+}
+@include computer {
+  .slide {
+    height: 70vh !important;
+  }
+}
