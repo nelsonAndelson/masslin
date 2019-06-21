@@ -7,6 +7,7 @@ import img2 from "../../img/silver-wall-paint-texture-different-types-of-wall-pa
 import img3 from "../../img/its-in-the-colours-you-choose.jpg";
 
 import can1 from "../../img/paint can.jpg";
+import can2 from "../../img/paint can2.jpg";
 
 const HomePainted = ({ products }) => {
   return (
@@ -15,9 +16,9 @@ const HomePainted = ({ products }) => {
       <Grid container>
         <Grid.Row columns={4}>
           <AltProduct img={img1} can={can1} />
-          <AltProduct img={img2} />
-          <AltProduct img={img3} />
-          <AltProduct />
+          <AltProduct img={img2} can={can2} />
+          <AltProduct img={img3} can={can2} />
+          <AltProduct can={can1} />
         </Grid.Row>
       </Grid>
     </>
